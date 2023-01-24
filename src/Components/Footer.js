@@ -57,18 +57,6 @@ const useStyles = makeStyles((theme) => {
                 flexDirection: 'column'
             }
         },
-        Term_policy: {
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            paddingLeft: '20vh',
-            paddingRight: '20vh',
-            paddingTop: '5vh',
-            paddingBottom: '5vh',
-            color: '#6F6F6F'
-        },
-
-
     }
 })
 
@@ -79,7 +67,6 @@ const Footer = () => {
         footer_head,
         icons,
         Contact_info,
-        Term_policy,
         subscribe_content,
     } = useStyles();
     return (
@@ -133,15 +120,6 @@ const Footer = () => {
                     </Box>
                 </Box>
             </Box>
-            {/* <Divider sx={{ height: 28, m: 0.5 }} orientation="Horizontal" />
-            <Box className={Term_policy}>
-                <Box>
-                    Marft2021 All rights reserved.
-                </Box>
-                <Box>
-                    Privacy Policy &nbsp; Terms of Conditions
-                </Box>
-            </Box> */}
         </Box>
     );
 }
